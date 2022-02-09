@@ -3,10 +3,19 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>
-        React Todo App
-      </h1>
+      <Header />
     </div>
+  );
+}
+
+function Header() {
+  return ( 
+  <header>
+    <h1>Tasks Board</h1>
+      <button className='primary-button'>
+        Show Backlog
+      </button>
+    </header>
   );
 }
 
