@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+}
+
+.title {
+    flex: 1;
+}
+
+.primaryButton {
+    display: flex;
+    height: fit-content;
+}
+
+.secondaryButton {
+
+}

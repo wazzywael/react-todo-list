@@ -1,21 +1,13 @@
 import './App.css';
+import Header from './components/Header';
+import TaskBoard from './components/TaskBoard';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <TaskBoard />
     </div>
-  );
-}
-
-function Header() {
-  return ( 
-  <header>
-    <h1>Tasks Board</h1>
-      <button className='primary-button'>
-        Show Backlog
-      </button>
-    </header>
   );
 }
 
