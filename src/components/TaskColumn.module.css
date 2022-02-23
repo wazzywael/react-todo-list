@@ -1,14 +1,37 @@
+.container {
+    min-width: 240px;
+    padding: 20px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f5f8;
+    border-radius: 8px;
+}
+
+.container:last-of-type {
+    margin: 0;
+}
+
 .header {
     display: flex;
+    align-items: center;
 }
 
 .title {
     flex: 1;
+    margin: 0;
 }
 
 .primaryButton {
     display: flex;
     height: fit-content;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid #EAEDF2;
+}
+
+.cards {
+    flex: 1;
 }
 
 .secondaryButton {
